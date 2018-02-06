@@ -21,6 +21,8 @@ PRODUCT_PACKAGES += \
 	libsecril-client \
 	libsecril-client-sap
 
+BOARD_PROVIDES_LIBRIL := true
+
 # Dual-SIM Support
 ifeq ($(BOARD_HAS_DUAL_SIM),true)
 
